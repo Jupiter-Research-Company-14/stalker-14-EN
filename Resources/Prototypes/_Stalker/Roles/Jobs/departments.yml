@@ -1,4 +1,13 @@
 - type: department
+  id: Special
+  color: "#9FED58"
+  name: department-Special
+  description: department-Special-description
+  weight: 11
+  roles:
+  - Tutorial
+
+- type: department
   id: Stalker
   color: "#9FED58"
   name: department-Stalker

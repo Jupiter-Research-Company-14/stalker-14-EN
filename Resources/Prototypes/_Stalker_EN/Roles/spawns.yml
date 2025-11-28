@@ -1,0 +1,12 @@
+- type: entity
+  id: SpawnPointTutorial
+  parent: SpawnPointJobBase
+  name: Tutorial Job Spawn
+  suffix: Tutorial
+  components:
+    - type: SpawnPoint
+      job_id: Tutorial
+    - type: Sprite
+      layers:
+        - state: green
+        - state: security_officer

@@ -1,0 +1,44 @@
+- type: job
+  id: Tutorial
+  name: job-tutorial
+  icon: tutorial
+  description: job-tutorial-desc
+  playTimeTracker: JobTutorial
+  whitelisted: false
+  requirements:
+    - !type:SpeciesRequirement
+      species:
+      - Human
+      - Dwarf
+      - Gingerbread
+      - HumanFat
+  startingGear: TutorialGear
+  canBeAntag: false
+  special:
+    - !type:AddComponentSpecial
+      components:
+      - type: Access
+        tags:
+          - Stalker
+      - type: Bands
+        band: Stalker
+        bandIcon: stalker
+        bandProto: STStalkerBand
+        bandRankId: 2
+      - type: BlockTackingHolyItems
+      - type: TeethPull
+        teethProto: ToothStalker
+        pullingItemTag: PliersStalker
+        teethCount: 3
+        initialTeeth: 3
+
+- type: startingGear
+  id: TutorialGear
+  equipment:
+    id: StalkerPDA
+    shoes: ClothingShoesNovice
+    mask: ClothingMaskGasMarlya
+    outerClothing: ClothingOuterJacketStalker
+    legs: ClothingLegsJeansBlue
+    back: ClothingBackpackDuffelGreenStalker
+    torso: ClothingTorsoSweaterStalkerGreen

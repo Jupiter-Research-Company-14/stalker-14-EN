@@ -6,3 +6,4 @@ department-StalkerReligius = Zealot
 department-Evolver = Evolved Mutant
 department-StalkerAnomalists = Anomalist
 department-StalkerUnitedNations = United Nations
+department-Special = Special

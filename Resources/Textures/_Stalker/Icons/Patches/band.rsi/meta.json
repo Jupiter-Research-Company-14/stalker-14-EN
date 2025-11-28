@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "copyright": "Stalker14 CLA",
+  "copyright": "Stalker14 CLA Tutorial made by dallaszzz for Stalker14 EN",
   "size": {
     "x": 12,
     "y": 12
@@ -182,6 +182,9 @@
     },
     {
       "name": "voen3"
+    },
+    {
+      "name": "tutorial"
     }
   ]
 }

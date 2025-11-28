@@ -171,3 +171,6 @@ job-evolver-medium-supervisor = Study and protect the zone, obey your Archon and
 job-evolver-archon = Symbiote Archon
 job-evolver-archon-desc = Exert control over the psyfield and the Psions, you are the peak of psionic evolution.
 job-evolver-archon-supervisor = Protect the zone and preserve the psyfield
+
+job-tutorial = Tutorial
+job-tutorial-desc = Puts you into a tutorial to get familiar with the game for new players.
