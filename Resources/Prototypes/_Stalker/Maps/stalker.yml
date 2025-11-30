@@ -12,7 +12,6 @@
           mapNameTemplate: "Cordon"
         - type: StationJobs
           availableJobs:
-            Tutorial: [ 0, -1 ]
             Stalker: [ 0, -1 ]
             StalkerRene: [ 0, -1 ]
             StalkerHeadRene: [ 0, -1 ]

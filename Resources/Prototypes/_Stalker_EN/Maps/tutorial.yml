@@ -1,0 +1,14 @@
+- type: gameMap
+  id: Tutorial
+  mapName: 'Tutorial'
+  mapPath: "/Maps/_ST_EN/tutorial.yml"
+  minPlayers: 0
+  stations:
+    Tutorial:
+      stationProto: StandardStalkerStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: "Tutorial"
+        - type: StationJobs
+          availableJobs:
+            Tutorial: [ 0, -1 ]
